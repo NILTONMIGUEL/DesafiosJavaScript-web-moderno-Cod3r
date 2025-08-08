@@ -13,7 +13,7 @@ console.log(Jsimples(100, 2 , 2));
 
 function Jcompostos(capitalI, juros, tempo){
     
-    const montante=capitalI * Math.pow(1 + (juros/100) , tempo).toFixed(3);
+    const montante=capitalI * Math.pow(1 + (juros/100) , tempo);
     const rendimento=montante - capitalI;
     return `montante ${montante} rendimento ${rendimento}`
 }
